@@ -1,6 +1,6 @@
 
 
-// document.addEventListener("DOMContentLoaded", (e) => {
+// document.addEventListener("DOMContentLoaded", () =>  {
   // your code here
   const form = document.querySelector('#create-task-form');
   
@@ -14,6 +14,9 @@
     form.reset();
 
   })
+// })
 
-// });
+
+// DOMCONTENTLOADED DOES NOT WORK FOR ME!! DEFER IN THE SCRIPT TAG DOES THOUGH 
+
 
